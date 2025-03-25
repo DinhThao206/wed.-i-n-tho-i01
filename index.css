@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #e5e5e5;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(21, 25, 29);
+    padding: 10px 20px;
+    max-width: 100%;
+}
+
+.logo {
+    text-align: center;
+    float: left;
+    padding: 0 70px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    color: white;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    gap: 24px;
+}
+
+.nav-links li {
+    margin: 0 25px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-menu .icons {
+    display: flex;
+    gap: 5px;
+}
+
+.container-a {
+    text-align: center;
+    font-size: 10px;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    max-width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+    clear: left;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    text-align: center;
+}
+
+li img {
+    width: 140px;
+    height: auto;
+    display: block;
+    margin: 0 90px;
+}
+
+button {
+    background: #c5c3c3;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20%;
+    cursor: pointer;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    padding: 50px;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.product {
+
+    text-align: center;
+    border-radius: 20px;
+}
+
+.product img {
+    width: 90%;
+}
+
+.product {
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+.l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+.kk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    background: #87b439;
+    color: white;
+    border-color: darkred;
+}
+
+.i img {
+    width: 400px;
+    height: 200px;
+}
+.product :hover {
+    transform: scale(1.1);
+}
+.uu{
+    background-color: rgb(37, 36, 36);
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    
+}
+.pp{
+    background-color: #87b439;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.mm img{
+    width: 200px;
+    height: 50px;
+}
+.mm ul {
+    list-style: none; 
+    padding: 20px; 
+    margin: 0;
+}
+
+
+.mm li {
+    display: block;
+    margin-bottom: 8px; 
+}
+.mm{
+    display: flex;
+    justify-content:center; 
+    gap: 50px; 
+}
+.hh{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.hh a{
+    color: white;
+}
+.icons .facebook:hover {
+    color: #1877F2;
+}
+
+.icons .instagram:hover {
+    color: #E4405F;
+}
+
+.icons .youtube:hover {
+    color: #FF0000;
+}
+
+
+
+
+
+
+
+

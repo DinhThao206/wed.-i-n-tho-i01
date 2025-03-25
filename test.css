@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.e {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.icons {
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    color: white;
+}
+
+.icons i {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.e img {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    float: left;
+}
+
+.q {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
+
+.b ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.b li {
+    text-align: center;
+}
+
+li img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.r img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    padding: 50px;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.product {
+
+    text-align: center;
+    border-radius: 20px;
+}
+
+.product img {
+    width: 90%;
+}
+
+.product {
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+.l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+.kk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+button:hover {
+    background: #87b439;
+    color: white;
+    border-color: darkred;
+}
+
+.i img {
+    width: 400px;
+    height: 200px;
+}
+.product :hover {
+    transform: scale(1.1);
+}
+.uu{
+    background-color: rgb(37, 36, 36);
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.pp{
+    background-color: #87b439;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.mm img{
+    width: 200px;
+    height: 70px;
+}
+.mm ul {
+    list-style: none; 
+    padding: 20px; 
+    margin: 0;
+}
+
+
+.mm li {
+    display: block;
+    margin-bottom: 8px; 
+}
+.mm{
+    display: flex;
+    justify-content:center; 
+    gap: 50px; 
+}
+.hh{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.hh a{
+    color: white;
+}
+.icons .facebook:hover {
+    color: #1877F2;
+}
+
+.icons .instagram:hover {
+    color: #E4405F;
+}
+
+.icons .youtube:hover {
+    color: #FF0000;
+}
+
+
+
+
+
+
+
+
